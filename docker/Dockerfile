@@ -6,6 +6,7 @@ MAINTAINER Ove Olsen <olsove@gmail.com>
 
 COPY setup /tmp
 
+RUN chmod 777 /tmp/*
 RUN /tmp/setup.sh
 
 EXPOSE 22 1521

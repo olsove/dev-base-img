@@ -6,7 +6,7 @@
 # 5) Configure oracle xe
 # 6) Use sqlplus and login as sysdba and shrink datafiles, create sandbox dba user
 # 7) Cleanup tempfiles and installation logs
-chmod 777 /tmp/* && \
+
 yum -y install libaio bc net-tools && \
 yum -y clean all && \
 yum localinstall -y /tmp/oracle-xe-11.2.0-1.0.x86_64.rpm && \
